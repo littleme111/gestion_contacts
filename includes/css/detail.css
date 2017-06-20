@@ -1,0 +1,15 @@
+#table1{
+    width: 90%;
+    border: solid 1px;
+}
+
+html{
+    background-color: white;
+}
+
+.title {
+  font-size: 36px;
+  color: #008cba;
+  text-align: center;
+  border: 2px solid #008cba;
+}

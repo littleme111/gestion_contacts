@@ -1,0 +1,48 @@
+.title {
+  font-size: 36px;
+  color: #008cba;
+  text-align: center;
+  border: 2px solid #008cba;
+}
+
+#myTable{
+    width: 90%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.shown {
+    visibility: visible;
+}
+.hidden td:nth-child(7){
+    display:none;
+}
+
+#repondre{
+    z-index: 10;
+    position: absolute;
+    display:block;
+    width: 60%;
+    height: 30%;
+    margin-top: -10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 0.5px solid ;
+    background-color: lightblue;
+}
+
+/*.demande{*/
+    /*width: 200px;*/
+/*}*/
+#myTable{
+    table-layout: fixed;
+    word-wrap:break-word;
+}
+
+#myTable tbody tr td{
+    max-height: 50px;
+    height:28px;
+    overflow:hidden;
+    word-wrap:break-word;
+}

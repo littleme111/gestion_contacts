@@ -1,0 +1,124 @@
+.title {
+  font-size: 36px;
+  color: #008cba;
+  text-align: center;
+  border: 2px solid #008cba;
+}
+tfoot {
+    display: table-header-group;
+}
+/*#myTable_wrapper*/
+/*{*/
+    /*z-index: 0;*/
+/*}*/
+
+html{
+    background-color: white;
+}
+#myTable{
+    z-index: 0;
+    display: block;
+}
+#repondre{
+    z-index: 10;
+    position: absolute;
+    display:block;
+    width: 60%;
+    height: auto;
+    margin-top: -10%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    border: 0.5px solid ;
+    background-color: white;
+    top: 50%;
+    left: 30%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+ }
+#contenu{
+    height: 300px;
+}
+#myTable tr td{
+    max-height: 30px;
+    max-width: 200px;
+    overflow:hidden;
+    word-wrap:break-word;
+    white-space: nowrap;
+}
+
+
+#closeConf, #demandeFermee{
+    z-index: 10;
+    position: absolute;
+    display:block;
+    width: 20%;
+    height: auto;
+    margin-top: -10%;
+    margin-right: 10%;
+    margin-left: 40%;
+
+    border: 0.5px solid ;
+    background-color: white;
+    top: 50%;
+    left: 30%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+/*#field{*/
+    /*z-index: +100;*/
+    /*margin-left: 30%;*/
+    /*margin-right: 10%;*/
+    /*width: inherit;*/
+    /*height: inherit;*/
+
+    /*width: 50%;*/
+    /*height: 80%;*/
+    /*margin-top: -10%;*/
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+    /*border: 0.5px solid ;*/
+    /*background-color: lightblue;*/
+/*}*/
+
+/*#reponse_mail{*/
+     /*height: inherit;*/
+     /*width: inherit;*/
+ /*}*/
+
+/*#reponse_mail select{*/
+    /*display: block;*/
+
+/*}*/
+
+/*#contenu{*/
+
+    /*overflow: scroll;*/
+    /*width: inherit;*/
+    /*height: 70%;*/
+/*}*/
+.ten{
+    background-color: lightgreen;
+}
+.five{
+    background-color: rgba(45, 25, 240, 0.53);
+}
+.one{
+    background-color: rgba(191, 41, 36, 0.62);
+}
+.mfive{
+    background-color: rgba(178, 0, 17, 0.72)
+}
+.else{
+    background-color: gray
+}
+
+.smaller{
+    font-size: 90%;
+}
+
+.Ferme{
+    background-color: #cecece;
+    font-style: italic;
+    text-decoration: line-through;
+}
